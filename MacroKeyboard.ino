@@ -7,10 +7,10 @@
 
 #define SHIFT KEY_LEFT_CTRL
 
-byte rowPins[] = {2, 3, 4, 5};
+byte rowPins[] = {5, 4, 3, 2};
 const int rows = sizeof(rowPins)/sizeof(rowPins[0]);
 
-byte colPins[] = {6, 10, 8, 9};
+byte colPins[] = {9, 8, 7, 6};
 const int cols = sizeof(colPins)/sizeof(colPins[0]);
 
 byte keys[cols][rows];
